@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ProjectCard from "./ProjectCards";
 
@@ -14,6 +14,7 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        <Row></Row>
       </Container>
     </Container>
   );
