@@ -2,7 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ProjectCard from "./ProjectCards";
-import chatify from "../../Assets/Projects/image.png";
+import streetSaver from "../../Assets/Projects/image2.png";
+import MyJourneyFootprint from "../../Assets/Projects/image4.png";
+import football from "../../Assets/Projects/image1.png";
+import machineLearning from "../../Assets/Projects/image3.png";
+import devOps from "../../Assets/Projects/image.png";
+import android from "../../Assets/Projects/image6.png";
+import cyf from "../../Assets/Projects/image7.png";
 
 function Projects() {
   return (
@@ -18,12 +24,68 @@ function Projects() {
         <Row>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={streetSaver}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Street Saver"
+              description=""
+              ghLink="https://github.com/ali1373107/Street-Safer"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MyJourneyFootprint}
+              isBlog={false}
+              title="My journey footprint"
+              description=""
+              ghLink="https://github.com/tomstrong64/MyJourneyFootprint-COM617"
+              demoLink="https://myjourneyfootprint.uksouth.cloudapp.azure.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={football}
+              isBlog={false}
+              title="Community football"
+              description="."
+              ghLink="https://github.com/ZahraaTayyar/Community-Football-Website"
+              demoLink="https://cyf-football-community.netlify.app/index.html"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={machineLearning}
+              isBlog={false}
+              title="Solent FINTECH"
+              description="."
+              ghLink="https://github.com/ali1373107/SolentFINTECH"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={devOps}
+              isBlog={false}
+              title="Points Of Intrest"
+              description="."
+              ghLink="https://github.com/tomstrong64/DevOpsAssessment"
+              demoLink="https://coordinated-chaos.uksouth.cloudapp.azure.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={android}
+              isBlog={false}
+              title="Android development and 3D Graphics"
+              description="."
+              ghLink="https://github.com/ali1373107/Ali3DAssessment"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cyf}
+              isBlog={false}
+              title="Job board"
+              description="."
+              ghLink="https://github.com/OlushoreOdude/nyf-job-board"
             />
           </Col>
         </Row>
