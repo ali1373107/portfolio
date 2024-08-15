@@ -15,34 +15,17 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to <b className="purple">Blockchain.</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              A motivated and result-driven software engineer, recently
+              graduated from Southampton Solent University deeply passionate
+              about continuous learning and innovation. Hands-on experience in
+              building dynamic and scalable applications, well-organized
+              individual with a passion for finding innovative solutions to
+              existing and new problems, especially when they cause me to think
+              on my feet and adapt to changing requirements and circumstances.
+              This guided me into my choice of career path as I am aware of the
+              ever-changing technology world and understand that adaptability
+              and continuous learning are the keys in this sector and with the
+              skills I have acquired through my technical and life experiences.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
