@@ -40,7 +40,12 @@ function Projects() {
               imgPath={MyJourneyFootprint}
               isBlog={false}
               title="My journey footprint"
-              description=""
+              description="
+          My Journey Footprint is a web application designed to help users calculate their carbon emissions based on their travel information. The platform spreads awareness about the environmental impact of carbon emissions through a simple and intuitive map-based UI, promoting optimal user engagement. It includes features such as charts and graphs for visualizing carbon footprint data, along with educational content on carbon impact and sustainable practices.
+
+The application was developed as part of a university Industrial Consulting Project, where I collaborated with my student peers to bring this idea to life. It was built using a modern tech stack, including JavaScript and Vue.js for the front-end, PostgreSQL for the database, and Tailwind CSS for styling. We used Docker to containerize the application, ensuring consistency across development environments, and integrated Hasura with GraphQL to manage real-time data queries efficiently.
+
+This project reflects our commitment to using technology to address environmental challenges and demonstrates our ability to work effectively in a collaborative setting               "
               ghLink="https://github.com/tomstrong64/MyJourneyFootprint-COM617"
               demoLink="https://myjourneyfootprint.uksouth.cloudapp.azure.com/"
             />
