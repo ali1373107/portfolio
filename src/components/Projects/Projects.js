@@ -27,7 +27,11 @@ function Projects() {
               imgPath={streetSaver}
               isBlog={false}
               title="Street Saver"
-              description=""
+              description="Street Saver is a mobile application designed to help users report potholes on roads and pathways using their
+               mobile devices. Built with the React Native cross-platform framework, CSS, and Firebase, it offers a range of features including 
+               account creation, login, logout, and account deletion. Users can report new potholes, visualize all existing potholes on a map,
+                receive notifications if a pothole is detected in their area, and upload images. The app supports both admin and standard user
+                 functionalities "
               ghLink="https://github.com/ali1373107/Street-Safer"
             />
           </Col>
