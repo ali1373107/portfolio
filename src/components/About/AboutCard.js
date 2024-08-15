@@ -7,8 +7,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Ali Dashti</span>, a
-            recent Software Engineering graduate from Solent University. My
+            Hi Everyone, I am <span className="purple">Ali Dashti</span> My
             passion for problem-solving and creating impactful solutions drives
             me to constantly explore new technologies and frameworks. I have
             solid experience in HTML, CSS, JavaScript, React, Next.js,
