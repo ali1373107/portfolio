@@ -101,6 +101,18 @@ Built using JavaScript, EJS, Docker, and MongoDB, the project follows DevOps pra
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={cyf}
+              isBlog={false}
+              title="Job board"
+              description="Developed as a final project at CodeYourFuture within a team, this Job Board web application uses external APIs to 
+              fetch and display job listings based on user preferences. The app features real-time job filtering, the ability to save and apply
+               for jobs, and dynamic loading of images and information from a JSON dataset. Built with React.js, HTML, CSS, and Docker,
+                it offers an engaging and responsive user experience."
+              ghLink="https://github.com/OlushoreOdude/nyf-job-board"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={android}
               isBlog={false}
               title="Android development and 3D Graphics"
@@ -110,18 +122,6 @@ Built using JavaScript, EJS, Docker, and MongoDB, the project follows DevOps pra
                A 3D augmented reality view overlays POIs on the camera feed, with real-time GPS tracking handled by an Android Service. 
                The app supports a dynamic user interface with ViewModel and LiveData integration"
               ghLink="https://github.com/ali1373107/Ali3DAssessment"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={cyf}
-              isBlog={false}
-              title="Job board"
-              description="Developed as a final project at CodeYourFuture within a team, this Job Board web application uses external APIs to 
-              fetch and display job listings based on user preferences. The app features real-time job filtering, the ability to save and apply
-               for jobs, and dynamic loading of images and information from a JSON dataset. Built with React.js, HTML, CSS, and Docker,
-                it offers an engaging and responsive user experience."
-              ghLink="https://github.com/OlushoreOdude/nyf-job-board"
             />
           </Col>
         </Row>
