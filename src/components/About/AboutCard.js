@@ -17,12 +17,13 @@ function AboutCard() {
             Solent University, where I gained strong foundational skills in
             full-stack development, problem-solving, and teamwork.
           </p>
-          <h3>
-            Knowledge isn't free. You have to pay attention.
-            <p>Richard P. Feynman</p>
-          </h3>
+
           <footer className="blockquote-footer">Ali Dashti</footer>
         </blockquote>
+        <h3>
+          Knowledge isn't free. You have to pay attention.
+          <footer className="blockquote-footer">Richard P. Feynman</footer>
+        </h3>
       </Card.Body>
     </Card>
   );
