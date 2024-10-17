@@ -15,11 +15,30 @@ import {
   SiPostgresql,
   SiMysql,
   SiFigma,
+  SiTensorflow,
+  SiPytorch,
+  SiMicrosoftexcel,
+  SiAiqfome,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTensorflow /> {/* Machine Learning */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPytorch /> {/* Deep Learning */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftexcel /> {/* Excel */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAiqfome /> {/* AI */}
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
@@ -53,9 +72,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>

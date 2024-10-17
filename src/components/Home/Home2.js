@@ -15,17 +15,14 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              A motivated and result-driven software engineer, recently
-              graduated from Southampton Solent University deeply passionate
-              about continuous learning and innovation. Hands-on experience in
-              building dynamic and scalable applications, well-organized
-              individual with a passion for finding innovative solutions to
-              existing and new problems, especially when they cause me to think
-              on my feet and adapt to changing requirements and circumstances.
-              This guided me into my choice of career path as I am aware of the
-              ever-changing technology world and understand that adaptability
-              and continuous learning are the keys in this sector and with the
-              skills I have acquired through my technical and life experiences.
+              A motivated and adaptable individual, passionate about continuous
+              learning, innovation, and problem-solving. My desire to pursue
+              these interests led me to step into AI for Engineering, where I
+              can pursue my dreams and stay relevant in the tech industry.
+              Having hands-on experience working with dynamic teams and
+              effective teamwork during my studies, I have built strong
+              communication and collaboration skills, as I believe these factors
+              are the key to individual and organizational growth.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
