@@ -20,10 +20,8 @@ function AboutCard() {
 
           <footer className="blockquote-footer">Ali Dashti</footer>
         </blockquote>
-        <h3>
-          Knowledge isn't free. You have to pay attention.
-          <footer className="blockquote-footer">Richard P. Feynman</footer>
-        </h3>
+        <h3>Knowledge isn't free. You have to pay attention.</h3>
+        <footer className="blockquote-footer">Richard P. Feynman</footer>
       </Card.Body>
     </Card>
   );
