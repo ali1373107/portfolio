@@ -9,17 +9,18 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Ali Dashti</span>. My
             passion for problem-solving and creating impactful solutions drives
-            me to constantly explore new technologies and frameworks. I have
-            solid experience in HTML, CSS, JavaScript, React, Next.js,
-            PostgreSQL, and MongoDB. I'm particularly committed to using my
-            skills to support causes I believe in, such as feminism and LGBTQ+
-            rights. This dedication aligns with my work in developing
-            applications that empower underrepresented communities. I am a fast
-            learner, eager to dive into new challenges, and adaptable to various
-            tech environments. I am excited to continue my journey in software
-            development, bringing creativity, dedication, and a strong belief in
-            equality and diversity to every project I undertake.
+            me to constantly explore new technologies and frameworks. I'm
+            currently pursuing a Master's in AI for Engineering at the
+            University of Bath, where I'm deepening my expertise in artificial
+            intelligence, machine learning, and data-driven solutions. I
+            recently completed my Bachelor's degree in Software Engineering from
+            Solent University, where I gained strong foundational skills in
+            full-stack development, problem-solving, and teamwork.
           </p>
+          <h3>
+            Knowledge isn't free. You have to pay attention.
+            <p>Richard P. Feynman</p>
+          </h3>
           <footer className="blockquote-footer">Ali Dashti</footer>
         </blockquote>
       </Card.Body>
